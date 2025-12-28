@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: mindforge-backend
+
+server:
+  port: 8080
+
+# Database placeholder — configured on Day 3
+datasource:
+  url: ${DB_URL:}
+  username: ${DB_USER:}
+  password: ${DB_PASSWORD:}
+
+# JWT placeholder — will configure on Day 2
+jwt:
+  secret: ${JWT_SECRET:change-me}
